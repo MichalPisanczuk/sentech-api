@@ -1,10 +1,22 @@
 {
-  "homepage": "https://michalpisanczuk.github.io/sentech-api/",
   "name": "sentech-api",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Catologue of Sentech parts",
+  "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "json-serwer": "json-server --watch api.json"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichalPisanczuk/Sentech-API.git"
+  },
+  "author": "Michal Pisanczuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichalPisanczuk/Sentech-API/issues"
+  },
+  "homepage": "https://github.com/MichalPisanczuk/Sentech-API#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
   }
 }
